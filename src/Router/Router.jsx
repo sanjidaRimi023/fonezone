@@ -6,6 +6,7 @@ import Favorites from "../Pages/Favorites"
 import About from '../Pages/About';
 import ErrorPage from '../Pages/ErrorPage';
 import PhoneDetails from '../Pages/phoneDetails'
+import Cart from "../Pages/Cart";
 const router = createBrowserRouter([
     {
       path: '/',
@@ -25,8 +26,8 @@ const router = createBrowserRouter([
             Component: About
         },
         {
-            path: '/errorpage',
-            Component: ErrorPage
+            path: '/cart',
+            Component: Cart
         },
         {
             path: '/phonedetails',

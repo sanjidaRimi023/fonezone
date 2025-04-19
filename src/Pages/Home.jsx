@@ -1,11 +1,13 @@
 import React from 'react';
+import bannerImg from '../assets/banner.png'
+import PhoneContainer from '../Components/PhoneContainer';
 
 const Home = () => {
     return (
         <div>
-            <h1>hero section</h1>
-            <h1>phone container</h1>
-
+           <img src={bannerImg} alt="" />
+           <PhoneContainer></PhoneContainer>
+           
         </div>
     );
 };
