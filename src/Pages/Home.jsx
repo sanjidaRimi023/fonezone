@@ -1,11 +1,12 @@
 import React from 'react';
-import bannerImg from '../assets/banner.png'
+
 import PhoneContainer from '../Components/PhoneContainer';
+import HeroBanner from '../Components/HeroBanner';
 
 const Home = () => {
     return (
         <div>
-           <img src={bannerImg} alt="" />
+           <HeroBanner></HeroBanner>
            <PhoneContainer></PhoneContainer>
            
         </div>
