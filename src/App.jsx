@@ -1,4 +1,5 @@
 
+import { Outlet } from 'react-router'
 import './App.css'
 
 function App() {
@@ -6,9 +7,7 @@ function App() {
 
   return (
     <>
-      
-      <h1 className='text-2xl text-pink-600'>Vite + React</h1>
-     
+      {/* <Outlet></Outlet> */}
     </>
   )
 }
